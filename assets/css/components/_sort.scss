@@ -1,0 +1,55 @@
+.sort {
+    &__filters {
+        display: flex;
+        gap: 25px;
+        margin-left: auto;
+    }
+
+    &__arrows {
+        display: flex;
+        gap: 18px;
+        margin-left: 47px;
+    }
+
+    &__item-text {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 129%;
+        text-transform: uppercase;
+        color: #000;
+        opacity: 0.3;
+        transition: 0,3s;
+
+        &:hover {
+            opacity: 0.6;
+        }
+
+        &:active {
+            opacity: 1;
+        }
+
+        &::before {
+            opacity: 1;
+        }
+
+        &--current {
+            opacity: 1;
+        }
+    }
+
+    &__arrows-items {
+        opacity: 0.3;
+
+        &:hover {
+            opacity: 0.6;
+        }
+
+        &:active {
+            opacity: 1;
+        }
+
+        &::before {
+            opacity: 1;
+        }
+    }
+}

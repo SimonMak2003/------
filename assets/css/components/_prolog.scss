@@ -1,0 +1,39 @@
+.prolog {
+    background-color: #eee;
+
+    &__wrapper {
+        background-image: url('/assets/images/nerds-index-slide1\ 1.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-top: 78px;
+        padding-bottom: 84px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 54px;
+        line-height: 100%;
+        color: #000;
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #283136;
+        margin-bottom: 38px;
+    }
+
+    &__btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 112%;
+        text-align: center;
+        color: #fff;
+        border-radius: 3px;
+        display: inline-block;
+        background: $color-accent;
+        padding: 16px 54px;
+    }
+}

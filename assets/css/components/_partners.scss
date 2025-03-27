@@ -1,0 +1,38 @@
+.partners {
+
+    &__border {
+        width: 100%;
+        height: 2px;
+        background-color: #eee;
+        margin-bottom: 46px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-bottom: 44px;
+    }
+
+    &__stic {
+        height: 52px;
+        width: 2px;
+        background-color: #eee;
+    }
+
+    &__pic {
+        opacity: 30%;
+        transition: 0.3s;
+
+        &:hover {
+            opacity: 100%;
+        }
+
+        &:active {
+            opacity: 10%;
+        }
+
+    }
+
+}
