@@ -201,7 +201,7 @@ input[type=number] {
   background-color: #eee;
 }
 .prolog__wrapper {
-  background-image: url("/assets/images/nerds-index-slide1 1.png");
+  background-image: url("../images/nerds-index-slide1 1.png");
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 78px;
